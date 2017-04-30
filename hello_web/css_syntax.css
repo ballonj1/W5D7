@@ -5,12 +5,14 @@ h1 {
 h2 {
   font-size: 32px;
 }
+
 body {
   font-family: Arial, sans-serif;
 }
 
 .ingredients-list {
   list-style: square inside;
+
 }
 
 .directions-list {
@@ -19,6 +21,7 @@ body {
 
 header > img {
   width: 100px;
+  display: inline-block;
 }
 
 ul > li > a {
@@ -28,10 +31,12 @@ ul > li > a {
 
 body {
   background-color: aliceblue;
+  width: 900px;
+  margin: 0 auto;
 }
 
 figure, img {
-  width: 500;
+  width: 500px;
 }
 
 input[type="radio"] {
@@ -40,7 +45,7 @@ input[type="radio"] {
 }
 
 ol li:nth-of-type(2n) {
-  background-color: greenyellow;
+  background-color: lightsalmon;
 }
 
 input:last-child:hover {
@@ -49,4 +54,83 @@ input:last-child:hover {
 
 h4 + p {
   border-top: 1px solid black;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul li {
+    display:  inline-block;
+}
+
+nav ul li a {
+    padding: 20px;
+    display: block;
+}
+
+body > aside {
+
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+  float: left;
+}
+
+body > section {
+  width: 700px;
+  display: inline-block;
+}
+
+.ingredients-list > li {
+  margin: 15px 0 15px 0;
+}
+
+.directions-list > li {
+  margin: 15px 0 15px 0;
+}
+
+input#name {
+  display: block;;
+}
+
+input[type="radio"]{
+  display: inline;
+}
+
+select#expertise {
+  display: block;
+}
+
+textarea#review {
+  display: block;
+}
+
+label[for="rating"] {
+  display: none
+}
+
+label[for="expertise"]{
+  display: none;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+}
+
+input#name {
+  margin: 10px
+}
+
+select#expertise {
+  margin: 10px
+}
+
+textarea#review {
+  margin: 10px;
+  width: 1000
+}
+
+input[type="submit"] {
+  margin: 10px
 }
