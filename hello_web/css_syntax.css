@@ -21,7 +21,7 @@ body {
 
 header > img {
   width: 100px;
-  display: inline-block;
+  float: left;
 }
 
 ul > li > a {
@@ -35,9 +35,6 @@ body {
   margin: 0 auto;
 }
 
-figure, img {
-  width: 500px;
-}
 
 input[type="radio"] {
   cursor: pointer;
@@ -57,7 +54,7 @@ h4 + p {
 }
 
 nav {
-    display: inline-block;
+    float: right;
 }
 
 nav ul li {
@@ -133,4 +130,8 @@ textarea#review {
 
 input[type="submit"] {
   margin: 10px
+}
+
+.clearfix {
+  overflow: auto;
 }
